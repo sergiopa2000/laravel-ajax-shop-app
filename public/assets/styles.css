@@ -1,0 +1,138 @@
+.product-img{
+    height: 300px;
+}
+
+.tag-active{
+    color: #717fe0;
+    border-color: #717fe0;
+}
+
+.sidebar{
+    z-index: unset;
+    position: static;
+}
+
+.wrap-menu-desktop{
+    z-index: 1;
+    top: 0 !important;
+}
+
+.images-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.images-container img {
+    position: relative;
+    border-radius: 12px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.images-container div span {
+    color: white !important;
+    border: 0;
+    font-family: serif;
+    z-index: 3;
+    align-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e50000;
+    cursor: pointer;
+}
+
+.images-container div {
+    margin-top: 10px;
+    position: relative;
+}
+
+.tag-input-container, .color-input-container{
+    cursor: pointer;
+    position: relative !important;
+}
+
+.tag-input-container input, .color-input-container input{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0;
+}
+
+.tag-container{
+    display: flex;
+}
+
+.my-product-modal.show{
+    opacity: 1 !important ;
+    visibility: visible !important;
+}
+
+.my-pagination .d-none{
+    flex-direction: column-reverse;
+    gap: 18px;
+}
+
+#my-product-container{
+    height:100% !important;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.my-form-select{
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.2;
+    padding: 10px;
+    background-color: transparent;
+    
+    width: 100%;
+    border: 0;
+}
+
+.form-select{
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-position-x: right 0.75rem;
+    background-position-y: center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.editButton{
+    display: inline-block;
+    z-index: 99;
+}
